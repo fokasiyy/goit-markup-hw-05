@@ -571,6 +571,12 @@ align-items: center;
   color: css #2E2F42;
   margin-bottom: 16px;
 }
+.footer-button:hover,
+.footer-button:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff
+}
 
 .social-clause{
   margin-bottom: 16px;
