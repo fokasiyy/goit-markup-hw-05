@@ -568,7 +568,7 @@ align-items: center;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: css #2E2F42;
+  color: #2E2F42;
   margin-bottom: 16px;
 }
 .modal-footer-button:hover,
@@ -617,7 +617,7 @@ align-items: center;
   padding: 8px 16px;
 }
 
-.social-form-bth{
+.social-form-bth {
   min-width: 165px;
   height: 40px; 
   display: flex; 
@@ -634,7 +634,12 @@ align-items: center;
   border: none; 
   border-radius: 4px; 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
+.footer-social-btn {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .social-form-bth:hover,
 .social-form-bth:focus {
   fill: #ffffff
