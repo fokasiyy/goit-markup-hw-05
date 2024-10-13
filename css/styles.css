@@ -546,7 +546,7 @@ align-items: center;
   visibility: visible;
   pointer-events: auto;}
 
-  .modal-info {
+  .modal-footer-button {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -571,8 +571,8 @@ align-items: center;
   color: css #2E2F42;
   margin-bottom: 16px;
 }
-.footer-button:hover,
-.footer-button:focus {
+.modal-footer-button:hover,
+.modal-footer-button:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff
